@@ -1,0 +1,76 @@
+/*Colors:
+Dark slate gray: #27474E
+Vanilla: #E1D89F
+Old rose: #CD8B76
+Sky magenta: #C45BAA
+Plum: #7D387D
+*/
+
+/*Global styles
+------------------------*/
+
+body {
+    color: #27474E;
+}
+
+ img {
+    width: 300px;
+ }
+
+ a {
+    color:#E1D89F
+ }
+
+ a:hover {
+    text-decoration: none;
+ }
+
+/*Profile styles
+------------------------*/
+
+header {
+    background-color: #C45BAA;
+}
+
+/*Projects styles
+------------------------*/
+
+.projects {
+    background-color: #E1D89F;
+}
+
+.projects a {
+}
+
+.projects .btn {
+    color: #e1d89f;
+    background-color: #C45BAA;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects .btn:hover {
+    background:#CD8B76;
+}
+
+/*Work Experience styles
+------------------------*/
+
+.work-experience {
+    background-color: #CD8B76;
+}
+
+/*Education styles
+------------------------*/
+
+/*Contact styles
+------------------------*/
+footer {
+    background-color:#E1D89F;
+    color:#27474E
+}
+
+footer a {
+    color:#27474E
+}
