@@ -9,8 +9,33 @@ Plum: #7D387D
 /*Global styles
 ------------------------*/
 
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     color: #27474E;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: "Kalam";
+}
+
+h2 {
+    margin: 0;
+    font-family: "Noto Sans";
+}
+
+h3 {
+    font-family: 'Noto Sans', sans-serif;
 }
 
  img {
@@ -25,11 +50,17 @@ body {
     text-decoration: none;
  }
 
+ .content-wrap {
+    width: 800px;
+    margin: 0 auto;
+ }
+
 /*Profile styles
 ------------------------*/
 
 header {
     background-color: #C45BAA;
+    margin: 0;
 }
 
 /*Projects styles
@@ -48,10 +79,15 @@ header {
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
 }
 
 .projects .btn:hover {
     background:#CD8B76;
+}
+
+.project-item img {
+    float: left;
 }
 
 /*Work Experience styles
@@ -63,6 +99,9 @@ header {
 
 /*Education styles
 ------------------------*/
+.education {
+    background-color: #C45BAA;
+}
 
 /*Contact styles
 ------------------------*/
